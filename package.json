@@ -1,0 +1,18 @@
+{
+  "name": "postgres-vscode-inventory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Find products needing replenishment and calculate units required to reach a stock target of 10.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/app.mjs",
+    "test": "node --test",
+    "demo": "node --env-file=.env src/demo.mjs",
+    "report:live": "node --env-file=.env src/app.mjs --live",
+    "preview": "node src/demo.mjs"
+  }
+}

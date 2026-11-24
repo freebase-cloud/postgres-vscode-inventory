@@ -1,0 +1,7 @@
+{
+  "name": "postgres-vscode-inventory",
+  "engine": "postgresql",
+  "slug": "postgres",
+  "kind": "application",
+  "useCase": "inventory"
+}

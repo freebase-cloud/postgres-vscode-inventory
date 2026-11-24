@@ -1,0 +1,14 @@
+{
+  "reorder": [
+    {
+      "product": "Keyboard",
+      "stock": 3,
+      "orderUnits": 7
+    },
+    {
+      "product": "Mouse",
+      "stock": 1,
+      "orderUnits": 9
+    }
+  ]
+}
